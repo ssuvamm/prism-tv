@@ -1,0 +1,33 @@
+name: Bug report
+description: Something in the app isn't working
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. If a single channel doesn't play, check whether it plays in VLC first.
+        Broken or missing channels are usually a problem with the stream itself, and are best reported to
+        [iptv-org/iptv](https://github.com/iptv-org/iptv/issues).
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: Settings > About
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and Android version
+      placeholder: Pixel 7, Android 15
+  - type: input
+    id: channel
+    attributes:
+      label: Channel (if relevant)
