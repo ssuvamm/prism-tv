@@ -23,9 +23,10 @@ Prism TV pulls the public iptv-org database, keeps a compact copy on the phone, 
 a built-in Media3 player (or hands them to VLC if you prefer).
 
 <p align="center">
-  <img src="docs/screenshots/home.png" width="240" alt="Home screen">
-  <img src="docs/screenshots/browse.png" width="240" alt="Browse by category">
-  <img src="docs/screenshots/settings.png" width="240" alt="Settings and styles">
+  <img src="docs/screenshots/home.png" width="200" alt="Home screen">
+  <img src="docs/screenshots/browse.png" width="200" alt="Browse by category">
+  <img src="docs/screenshots/settings.png" width="200" alt="Settings and styles">
+  <img src="docs/screenshots/support.png" width="200" alt="Support Prism TV with PayPal or UPI">
 </p>
 
 ## Features
@@ -145,7 +146,7 @@ chip in here. It's also in the app under **Settings > Support Prism TV**.
 
 | | |
 | --- | --- |
-| **PayPal** | [![Donate with PayPal](https://img.shields.io/badge/PayPal-Donate-00457C?logo=paypal&logoColor=white)](https://www.paypal.com/donate/?business=ssuvamm%40gmail.com&no_recurring=0&item_name=Support+Prism+TV&currency_code=USD) &nbsp; `ssuvamm@gmail.com` |
+| **PayPal** | [![Pay with PayPal](https://img.shields.io/badge/PayPal-Pay-00457C?logo=paypal&logoColor=white)](https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=ssuvamm%40gmail.com&item_name=Support+Prism+TV&currency_code=USD) &nbsp; `ssuvamm@gmail.com` |
 | **UPI** (India) | `ssuvamm@oksbi`, works with Google Pay, PhonePe, Paytm, BHIM and any other UPI app |
 
 <p align="center">

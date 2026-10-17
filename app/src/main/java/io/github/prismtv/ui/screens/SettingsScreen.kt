@@ -220,10 +220,10 @@ fun SettingsScreen(vm: MainViewModel, bottomPadding: PaddingValues) {
         }
 
         Group("Support Prism TV") {
-            Item(Icons.Rounded.VolunteerActivism, "Donate with PayPal", Donate.PAYPAL_EMAIL) {
+            Item(Icons.Rounded.VolunteerActivism, "Pay with PayPal", Donate.PAYPAL_EMAIL) {
                 if (!Donate.open(ctx, Donate.PAYPAL_URL)) Donate.copy(ctx, "PayPal", Donate.PAYPAL_EMAIL)
             }
-            Item(Icons.Rounded.CurrencyRupee, "Donate with UPI", Donate.UPI_ID) {
+            Item(Icons.Rounded.CurrencyRupee, "Pay with UPI", Donate.UPI_ID) {
                 // Some UPI apps refuse payments started by another app, so the ID is always copied too.
                 Donate.copy(ctx, "UPI ID", Donate.UPI_ID)
                 Donate.open(ctx, Donate.UPI_URL)
@@ -241,7 +241,7 @@ fun SettingsScreen(vm: MainViewModel, bottomPadding: PaddingValues) {
 /** Donation links shown in Settings. Opening falls back to copying, e.g. on TVs without a browser or UPI app. */
 private object Donate {
     const val PAYPAL_EMAIL = "ssuvamm@gmail.com"
-    const val PAYPAL_URL = "https://www.paypal.com/donate/?business=ssuvamm%40gmail.com&no_recurring=0&item_name=Support+Prism+TV&currency_code=USD"
+    const val PAYPAL_URL = "https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=ssuvamm%40gmail.com&item_name=Support+Prism+TV&currency_code=USD"
     const val UPI_ID = "ssuvamm@oksbi"
     const val UPI_URL = "upi://pay?pa=ssuvamm@oksbi&pn=Prism%20TV&tn=Support%20Prism%20TV&cu=INR"
 
